@@ -1,3 +1,3 @@
-// module.exports = () => ({
-//     chartbrew: true,
-//   });
+module.exports = () => ({
+    chartbrew: true,
+  });
