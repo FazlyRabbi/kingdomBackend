@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * color router
+ * petition router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::color.color');
+module.exports = createCoreRouter('api::petition.petition');

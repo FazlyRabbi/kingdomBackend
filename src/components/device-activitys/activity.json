@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_device_activitys_activities",
+  "info": {
+    "displayName": "Activity"
+  },
+  "options": {},
+  "attributes": {
+    "IpAddress": {
+      "type": "string"
+    },
+    "BrowserName": {
+      "type": "string"
+    },
+    "DeviceName": {
+      "type": "string"
+    },
+    "OperatingSystemName": {
+      "type": "string"
+    },
+    "Locations": {
+      "type": "string"
+    },
+    "Date": {
+      "type": "string"
+    }
+  }
+}

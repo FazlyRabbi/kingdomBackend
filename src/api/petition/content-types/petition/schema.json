@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "petitions",
+  "info": {
+    "singularName": "petition",
+    "pluralName": "petitions",
+    "displayName": "Petition"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Phone": {
+      "type": "string"
+    },
+    "AddressLine": {
+      "type": "text"
+    },
+    "StreetAddress": {
+      "type": "text"
+    },
+    "City": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "PostalCode": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "Message": {
+      "type": "text"
+    },
+    "RegistrationId": {
+      "type": "string"
+    },
+    "DeviceRecentActivitys": {
+      "displayName": "Activity",
+      "type": "component",
+      "repeatable": false,
+      "component": "device-activitys.activity"
+    }
+  }
+}
