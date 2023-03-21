@@ -1,0 +1,81 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vendors",
+  "info": {
+    "singularName": "vendor",
+    "pluralName": "vendors",
+    "displayName": "Vendor"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "DateofBirth": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "string"
+    },
+    "AddressLine1": {
+      "type": "text"
+    },
+    "AddressLine2": {
+      "type": "text"
+    },
+    "City": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "PostalCode": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "Skills": {
+      "type": "string"
+    },
+    "InterestAreas": {
+      "type": "string"
+    },
+    "CardInfo": {
+      "type": "string"
+    },
+    "BillingFirstName": {
+      "type": "string"
+    },
+    "BillingLastName": {
+      "type": "string"
+    },
+    "BillingAdressline1": {
+      "type": "text"
+    },
+    "BillingAdressline2": {
+      "type": "text"
+    },
+    "BillingCity": {
+      "type": "string"
+    },
+    "BillingState": {
+      "type": "string"
+    },
+    "BillingPostal": {
+      "type": "string"
+    },
+    "BillingCountry": {
+      "type": "string"
+    }
+  }
+}

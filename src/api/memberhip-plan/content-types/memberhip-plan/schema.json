@@ -1,0 +1,88 @@
+{
+  "kind": "collectionType",
+  "collectionName": "memberhip_plans",
+  "info": {
+    "singularName": "memberhip-plan",
+    "pluralName": "memberhip-plans",
+    "displayName": "MemberhipPlan"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "MiddleName": {
+      "type": "string"
+    },
+    "FamilyLastName": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Number": {
+      "type": "string"
+    },
+    "StreetAddress": {
+      "type": "text"
+    },
+    "Apartment": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "PostalCode": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "MemberhipPlan": {
+      "type": "string"
+    },
+    "CardInfo": {
+      "type": "string"
+    },
+    "BillingName": {
+      "type": "string"
+    },
+    "BillingAddress": {
+      "type": "string"
+    },
+    "BillingApartment": {
+      "type": "string"
+    },
+    "BillingCity": {
+      "type": "string"
+    },
+    "BillingState": {
+      "type": "string"
+    },
+    "BillingPostalCode": {
+      "type": "string"
+    },
+    "BillingCountry": {
+      "type": "string"
+    },
+    "Signature": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

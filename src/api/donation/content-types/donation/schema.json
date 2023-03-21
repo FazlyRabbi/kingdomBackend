@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "donations",
+  "info": {
+    "singularName": "donation",
+    "pluralName": "donations",
+    "displayName": "Donations"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Amount": {
+      "type": "string"
+    },
+    "Frequency": {
+      "type": "string"
+    },
+    "CardInfo": {
+      "type": "string"
+    }
+  }
+}

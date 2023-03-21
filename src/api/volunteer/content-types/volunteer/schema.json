@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "volunteers",
+  "info": {
+    "singularName": "volunteer",
+    "pluralName": "volunteers",
+    "displayName": "Volunteer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "DateofBirth": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "string"
+    },
+    "AddressLine1": {
+      "type": "string"
+    },
+    "AddressLine2": {
+      "type": "text"
+    },
+    "City": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "PostalCode": {
+      "type": "string"
+    },
+    "Skills": {
+      "type": "string"
+    },
+    "InterestAreas": {
+      "type": "string"
+    },
+    "InterestPlace": {
+      "type": "string"
+    },
+    "EmergencyEmail": {
+      "type": "string"
+    },
+    "EmergencyPhone": {
+      "type": "string"
+    }
+  }
+}
