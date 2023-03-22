@@ -15,7 +15,7 @@
     "Country": {
       "type": "string"
     },
-    "Image": {
+    "Thubmnail": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -23,24 +23,33 @@
         "images"
       ]
     },
-    "ProjectDetails": {
-      "displayName": "Project",
-      "type": "component",
-      "repeatable": false,
-      "component": "details.project"
-    },
-    "Comments": {
+    "Replay": {
       "displayName": "UserFeedback",
       "type": "component",
       "repeatable": false,
       "component": "user-comments.user-feedback"
     },
-    "Title": {
-      "type": "string"
-    },
     "Slug": {
       "type": "uid",
+      "required": true,
       "targetField": "Title"
+    },
+    "Title": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "KushInvolment": {
+      "type": "text"
+    },
+    "Bradcamp": {
+      "type": "string"
+    },
+    "ProjectCategorie": {
+      "type": "string"
+    },
+    "ProjectDescription": {
+      "type": "text"
     }
   }
 }

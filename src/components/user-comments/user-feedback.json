@@ -1,17 +1,18 @@
 {
   "collectionName": "components_user_comments_user_feedbacks",
   "info": {
-    "displayName": "UserFeedback"
+    "displayName": "UserFeedback",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "Name": {
       "type": "string"
     },
-    "Email": {
-      "type": "email"
-    },
     "Phone": {
+      "type": "string"
+    },
+    "Email": {
       "type": "string"
     }
   }
