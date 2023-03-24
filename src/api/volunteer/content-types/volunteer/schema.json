@@ -4,7 +4,8 @@
   "info": {
     "singularName": "volunteer",
     "pluralName": "volunteers",
-    "displayName": "Volunteer"
+    "displayName": "Volunteer",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -55,6 +56,10 @@
     },
     "EmergencyPhone": {
       "type": "string"
+    },
+    "RegistrationId": {
+      "type": "string",
+      "required": false
     }
   }
 }

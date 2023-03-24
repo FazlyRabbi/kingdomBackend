@@ -4,7 +4,8 @@
   "info": {
     "singularName": "memberhip-plan",
     "pluralName": "memberhip-plans",
-    "displayName": "MemberhipPlan"
+    "displayName": "MemberhipPlan",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -78,11 +79,15 @@
       "type": "string"
     },
     "Signature": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "RegistrationId": {
+      "type": "string"
     }
   }
 }
