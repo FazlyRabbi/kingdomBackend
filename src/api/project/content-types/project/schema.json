@@ -50,6 +50,9 @@
     },
     "ProjectDescription": {
       "type": "text"
+    },
+    "VideoUrl": {
+      "type": "string"
     }
   }
 }
