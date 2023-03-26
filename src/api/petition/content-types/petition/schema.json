@@ -24,9 +24,6 @@
     "Phone": {
       "type": "string"
     },
-    "AddressLine": {
-      "type": "text"
-    },
     "StreetAddress": {
       "type": "text"
     },
@@ -42,9 +39,6 @@
     "Country": {
       "type": "string"
     },
-    "Message": {
-      "type": "text"
-    },
     "RegistrationId": {
       "type": "string"
     },
@@ -55,12 +49,12 @@
       "component": "device-activitys.activity"
     },
     "Signature": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "private": true
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
